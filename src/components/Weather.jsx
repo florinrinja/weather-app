@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import  Weathers  from  './Weathers';
 import './Weather.css';
-import {Row, Col} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
 
 
 const forecastUrl = 'https://api.apixu.com/v1/forecast.json?key=';
