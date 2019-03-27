@@ -11,7 +11,7 @@
 .principal{
     background: #E8edf0;
     position: absolute;
-    height : 300px;
+    height : auto;
     width : 300px;
     margin:  auto;
     border-style: solid;
