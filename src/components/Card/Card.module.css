@@ -1,0 +1,20 @@
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F5FA;
+    width: 100%;
+    max-width: 280px;
+    height: 100%;
+    max-height: 450px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(189, 142, 142, 0.16);
+}
+@media only screen and (min-width:600px) {
+    .Card {
+        max-width: 472px;
+        max-height: 246px;
+    }   
+}

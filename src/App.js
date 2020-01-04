@@ -5,7 +5,7 @@ import Weather from './components/Weather.jsx';
 class App extends Component {
   render() {
     return (
-      <div className="">
+      <div>
         <Weather />
       </div>
     );
