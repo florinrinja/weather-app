@@ -9,7 +9,7 @@ import Humidity from './Humidity/Humidity';
 import Wind from './Wind/Wind';
 import Date from './Date/Date';
 
-const weatherDetails = (props) => {
+const WeatherDetails = (props) => {
 
   const [eventsProps, setEventsProps] = useState({});
   const [current, setCurrent] = useState();
@@ -44,4 +44,4 @@ const weatherDetails = (props) => {
   );
 }
 
-export default weatherDetails;
+export default WeatherDetails;
