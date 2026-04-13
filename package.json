@@ -1,17 +1,18 @@
 {
-  "homepage": "https://51.255.167.121/apps/weather",
+  "homepage": "https://florinrinja.website/apps/weather",
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.19.0",
-    "bootstrap": "^4.4.1",
-    "dateformat": "^3.0.3",
-    "react": "^16.12.0",
-    "react-bootstrap": "^1.0.0-beta.16",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "react-spinners": "^0.8.0"
+    "axios": "^1.14.0",
+    "bootstrap": "^5.3.8",
+    "dateformat": "^5.0.3",
+    "react": "^19.2.4",
+    "react-bootstrap": "^2.10.10",
+    "react-dom": "^19.2.4",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.17.0",
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
