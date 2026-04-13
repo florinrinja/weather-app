@@ -31,4 +31,4 @@ jobs:
           ssh-keyscan -H ${{ secrets.DEPLOY_HOST }} >> ~/.ssh/known_hosts
 
       - name: Copy to VPS
-        run: rsync -av -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" build/ deploy@${{ secrets.DEPLOY_HOST }}:/var/www/apps/weather/
+        run: rsync -av -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" build/ deploy@${{ secrets.DEPLOY_HOST }}:/var/www/apps/production/weather/
